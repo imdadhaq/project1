@@ -1,0 +1,110 @@
+
+package team;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class details {
+
+	class team { 
+		String tname;
+		String starttime;
+		String finishtime;
+		 
+		void settname(String tname) 
+		{
+			this.tname=tname;
+		}
+		void setstarttime(String starttime) 
+		{
+			this.starttime=starttime;
+		}
+		void setfinishtime(String finishtime)
+		{
+			this.finishtime=finishtime;
+		}
+		String gettname() 
+		{
+			return tname;
+		}
+		String getstarttime() 
+		{
+			return starttime;
+		}
+
+		String getfinishtime() 
+		{
+			return finishtime;
+		}
+		void slot(){
+			String time;
+		if(starttime==time)
+		{
+			
+		}
+		}
+			
+
+		}
+	
+	public void display(details s)
+	   {		
+		//System.out.println("Full Address : ");
+		JFrame frame;
+		frame = new JFrame("Short Address");
+		frame.setLayout(null);
+		frame.setSize(300,200);
+		frame.setVisible(true);
+		//frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JLabel fNameLabel = new JLabel("First Name ");
+		JLabel sNameLabel = new JLabel("Second Name ");
+		JLabel phNumLabel = new JLabel("Phone Number ");
+		
+		String firstName = s.tname();
+		JLabel fName = new JLabel(firstName);
+		
+		String secondName = s.starttime();
+		JLabel sName = new JLabel(secondName);
+		
+		int phNumber = s.finishtime();
+		JLabel phNum = new JLabel(""+phNumber);
+  
+		fNameLabel.setBounds(10,30,100,20);
+		fName.setBounds(200,30,120,30);   
+
+		sNameLabel.setBounds(10,60,150,20);
+		sName.setBounds(200,60,120,30);        
+
+		phNumLabel.setBounds(10,90,150,20);
+		phNum.setBounds(200,90,120,30);
+		
+		frame.add(fNameLabel);        
+		frame.add(fName);
+
+		frame.add(sNameLabel);        
+		frame.add(sName);
+  
+		frame.add(phNumLabel);        
+		frame.add(phNum);       
+	    
+	   }
+
+	private int finishtime() {
+		// TODO Auto-generated method stub
+		return finishtime();
+	}
+
+	private String starttime() {
+		// TODO Auto-generated method stub
+		return starttime();
+	}
+
+	private String tname() {
+		// TODO Auto-generated method stub
+		return tname();
+	}
+	
+
+
+}

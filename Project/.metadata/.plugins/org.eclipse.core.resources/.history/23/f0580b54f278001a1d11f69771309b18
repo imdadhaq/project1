@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package team;
+
+/**
+ * @author Imdad
+ *
+ */
+public class details {
+
+	/**
+	 * 
+	 */
+	public details() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

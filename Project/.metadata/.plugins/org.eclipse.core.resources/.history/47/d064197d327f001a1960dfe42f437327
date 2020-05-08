@@ -1,0 +1,13 @@
+
+package team;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class details {
+
+	JFrame fr =new JFrame();
+	
+	
+
+}

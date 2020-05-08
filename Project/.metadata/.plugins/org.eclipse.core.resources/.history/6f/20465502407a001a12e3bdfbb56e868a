@@ -1,0 +1,914 @@
+package team;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JRadioButton;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Color;
+
+public class JMGS extends JFrame {
+private JPanel contentPane;
+	private JTextField textFieldtname;
+	//private JRadioButton indoor;
+	//private JRadioButton outdoor;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					 JMGS frame = new  JMGS("JAFF MANAGEMENT SYSTEM");					
+					frame.setVisible(true);
+				} catch (Exception e)
+				{
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 * @param string 
+	 */
+	public JMGS(String s) {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(450, 450, 700, 700);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		textFieldtname = new JTextField();
+		textFieldtname.setBounds(357, 62, 235, 20);
+		contentPane.add(textFieldtname);
+		textFieldtname.setColumns(10);
+		JLabel lblNewLabel = new JLabel("Name of the team :");
+		lblNewLabel.setFont(new Font("Mongolian Baiti", Font.BOLD, 16));
+		lblNewLabel.setBounds(83, 62, 136, 20);
+		contentPane.add(lblNewLabel);
+		JRadioButton indoor = new JRadioButton("INDOOR");
+		JRadioButton outdoor = new JRadioButton("OUTDOOR");
+		indoor.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				if(indoor.isSelected())
+				{
+					outdoor.setSelected(false);
+				}
+			}
+		});
+		indoor.setBounds(252, 108, 109, 23);
+		contentPane.add(indoor);
+		//JRadioButton outdoor = new JRadioButton("OUTDOOR");
+		    outdoor.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(outdoor.isSelected())
+				{
+					indoor.setSelected(false);
+				}
+			}
+		});
+		outdoor.setBounds(252, 143, 109, 23);
+		contentPane.add(outdoor);
+		JButton btnNewButton = new JButton("Category");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String selection=null;
+				if(indoor.isSelected()) 
+				{
+					selection="indoor is selected";
+				
+				}
+				if(outdoor.isSelected()) 
+				{
+					selection="outdoor is selected";	
+				}
+				System.out.println(selection);
+			}
+		});
+		btnNewButton.setFont(new Font("Mongolian Baiti", Font.BOLD, 16));
+		btnNewButton.setBounds(83, 108, 136, 23);
+		contentPane.add(btnNewButton);
+		
+		JLabel slot = new JLabel("Slot :");
+		slot.setFont(new Font("Mongolian Baiti", Font.BOLD, 16));
+		slot.setBounds(117, 232, 48, 14);
+		contentPane.add(slot);
+		JRadioButton SLOT1 = new JRadioButton("7 AM TO 8:30 AM");
+		JRadioButton SLOT2 = new JRadioButton("8:30 AM TO 10 AM");
+		JRadioButton SLOT3 = new JRadioButton("10:30 AM TO 11 AM");
+		JRadioButton SLOT4 = new JRadioButton("11 AM TO 12:30 PM");
+		JRadioButton SLOT5 = new JRadioButton("12:30 PM TO 2 PM");
+		JRadioButton SLOT6 = new JRadioButton("2 PM TO 3:30 PM");
+		JRadioButton SLOT7 = new JRadioButton("3:30 PM TO 5 PM");
+		JRadioButton SLOT8 = new JRadioButton("5 PM TO 6:30 PM");
+		JRadioButton SLOT9 = new JRadioButton("6:30 PM TO 8 PM");
+		
+		//JRadioButton SLOT2 = new JRadioButton("8:30 AM TO 10 AM");
+		SLOT2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT2.isSelected())
+				{
+					if(SLOT1.isSelected())
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					else if(SLOT4.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT5.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT6.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);	
+						
+					}
+					else if(SLOT7.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT8.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT9.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+					
+						
+					}
+					
+				}
+				
+			}
+		});
+		SLOT2.setBounds(252, 272, 136, 23);
+		contentPane.add(SLOT2);
+		
+		//JRadioButton SLOT3 = new JRadioButton("10:30 AM TO 11 AM");
+		SLOT3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT3.isSelected())
+						{
+							if(SLOT1.isSelected())
+							{
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT4.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT6.isSelected()) 
+							{ SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);	
+								
+							}
+							else if(SLOT7.isSelected()) 
+							{    SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT8.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT9.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+							
+								
+							}
+							
+						}
+						
+					}
+			}
+		});
+		SLOT3.setBounds(252, 312, 150, 23);
+		contentPane.add(SLOT3);
+		
+		//JRadioButton SLOT1 = new JRadioButton("7 AM TO 8:30 AM");
+		SLOT1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT1.isSelected())
+				{
+					if(SLOT2.isSelected())
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					
+				}
+				
+				
+			}
+		});
+		SLOT1.setBounds(252, 229, 136, 23);
+		contentPane.add(SLOT1);
+
+		//JRadioButton SLOT7 = new JRadioButton("3:30 PM TO 5 PM");
+		SLOT7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT7.isSelected())
+						{
+							if(SLOT2.isSelected())
+							{
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT4.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+							
+								SLOT6.setSelected(false);
+							
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT6.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);					
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT1.isSelected()) 
+							{       
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+							
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT8.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT9.setSelected(false);
+							
+								
+							}
+		                            else if(SLOT9.isSelected()) 
+									{   SLOT1.setSelected(false);
+										SLOT2.setSelected(false);
+										SLOT3.setSelected(false);
+										SLOT4.setSelected(false);
+										SLOT5.setSelected(false);
+								
+										SLOT8.setSelected(false);
+										
+									
+										
+									}
+							
+						}
+						
+					}
+				
+			}
+		});
+		SLOT7.setBounds(479, 272, 125, 23);
+		contentPane.add(SLOT7);
+		
+		//JRadioButton SLOT8 = new JRadioButton("5 PM TO 6:30 PM");
+		SLOT8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT8.isSelected())
+						{
+							if(SLOT2.isSelected())
+							{
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+							
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+							
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT4.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+							
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT6.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+							
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT7.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+							
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT1.isSelected()) 
+							{       
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+							
+								
+							}
+		                                 else if(SLOT9.isSelected()) 
+									{   SLOT1.setSelected(false);
+										SLOT2.setSelected(false);
+										SLOT3.setSelected(false);
+										SLOT4.setSelected(false);
+										SLOT5.setSelected(false);
+										SLOT7.setSelected(false);
+										
+									
+										
+								}
+							
+						}
+						
+					}
+				
+				
+			}
+		});
+		SLOT8.setBounds(479, 312, 125, 23);
+		contentPane.add(SLOT8);
+		
+		//JRadioButton SLOT6 = new JRadioButton("2 PM TO 3:30 PM");
+		SLOT6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT6.isSelected())
+						{
+							if(SLOT1.isSelected())
+							{
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT2.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT4.isSelected()) 
+							{    SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT7.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT8.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT9.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+								
+							}
+							
+						}
+						
+					}
+				
+			}
+		});
+		SLOT6.setBounds(479, 229, 125, 23);
+		contentPane.add(SLOT6);
+		
+		//JRadioButton SLOT4 = new JRadioButton("11 AM TO 12:30 PM");
+		SLOT4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT4.isSelected())
+				{
+					if(SLOT1.isSelected())
+					{
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					else if(SLOT2.isSelected()) 
+					{   SLOT1.setSelected(false);
+					SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT5.isSelected()) 
+					{
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT6.isSelected()) 
+					{ 
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);	
+						
+					}
+					else if(SLOT7.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT8.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT9.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+					}
+				}	
+			}
+			});
+		SLOT4.setBounds(252, 353, 136, 23);
+		contentPane.add(SLOT4);
+		
+		//JRadioButton SLOT9 = new JRadioButton("6:30 PM TO 8 PM");
+		
+		SLOT9.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				 {
+						if(SLOT9.isSelected())
+						{
+							if(SLOT2.isSelected())
+							{
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+							     SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								}
+							else if(SLOT4.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+                             }
+							else if(SLOT5.isSelected()) 
+							{    SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								}
+							else if(SLOT6.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+
+							}
+							else if(SLOT7.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+					            SLOT8.setSelected(false);
+                             }
+							else if(SLOT8.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+                             }
+		                               else if(SLOT1.isSelected()) 
+									{   
+										SLOT2.setSelected(false);
+										SLOT3.setSelected(false);
+										SLOT4.setSelected(false);
+										SLOT5.setSelected(false);
+										SLOT7.setSelected(false);
+										SLOT8.setSelected(false);
+									}
+							
+						}	
+				    }
+				 }
+		});
+		SLOT9.setBounds(483, 353, 121, 23);
+		contentPane.add(SLOT9);
+		
+		//JRadioButton SLOT5 = new JRadioButton("12:30 PM TO 2 PM");
+		SLOT5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT5.isSelected())
+				{
+					if(SLOT1.isSelected())
+					{
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					else if(SLOT2.isSelected()) 
+					{   SLOT1.setSelected(false);
+					    SLOT3.setSelected(false);
+					    SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT3.isSelected()) 
+					{
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT6.isSelected()) 
+					{ 
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);	
+						
+					}
+					else if(SLOT7.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT8.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT9.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+					}
+				}	
+			}	
+		});
+		SLOT5.setBounds(252, 394, 136, 23);
+		contentPane.add(SLOT5);
+		JButton SUBMIT = new JButton("SUMIT");
+		SUBMIT.setFont(new Font("Mongolian Baiti", Font.PLAIN, 11));
+		SUBMIT.setBounds(585, 616, 89, 23);
+		contentPane.add(SUBMIT);
+		
+		JLabel lblNewLabel_1 = new JLabel("NOTE : A TEAM CAN CHOOSE MAXIMUM 2 SLOTS PER A DAY.");
+		lblNewLabel_1.setForeground(new Color(220, 20, 60));
+		lblNewLabel_1.setFont(new Font("Microsoft YaHei UI", Font.ITALIC, 11));
+		lblNewLabel_1.setBounds(252, 434, 352, 14);
+		contentPane.add(lblNewLabel_1);
+		
+		
+	}
+}

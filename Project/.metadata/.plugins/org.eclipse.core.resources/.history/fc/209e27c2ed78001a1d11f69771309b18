@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package dog;
+
+/**
+ * @author Imdad
+ *
+ */
+public class cat {
+
+	/**
+	 * 
+	 */
+	public cat() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

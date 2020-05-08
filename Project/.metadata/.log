@@ -1,0 +1,2295 @@
+!SESSION 2020-04-07 22:16:09.430 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Imdad\Desktop\Project -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-07 22:16:29.822
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-08 19:37:34.872 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-04-08 19:37:42.821
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-08 19:38:09.927
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-09 11:54:06.470 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-09 11:54:54.885
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-09 18:52:16.004 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-09 18:52:51.977
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2020-04-09 20:13:08.308
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:432)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:351)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3425)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setFocus(AbstractAnnotationHover.java:214)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformationControl(AbstractInformationControlManager.java:1246)
+	at org.eclipse.jface.internal.text.StickyHoverManager.showInformationControl(StickyHoverManager.java:262)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:164)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:116)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:103)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1268)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:794)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:297)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$Closer.lambda$1(AbstractHoverInformationControlManager.java:296)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+!SESSION 2020-04-09 20:19:01.831 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-09 20:19:34.012
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-11 18:49:18.198 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-11 18:50:00.958
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-11 22:00:39.809 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-11 22:01:22.220
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2020-04-11 22:27:09.801
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package team;
+import java.io.*;
+
+
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.text.JTextComponent;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JRadioButton;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Image;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.SwingConstants;
+
+ class dem {
+}
+
+class ImagePanel extends JPanel {
+
+  private Image img;
+
+  public ImagePanel(String img) {
+    this(new ImageIcon(img).getImage());
+  }
+
+  public ImagePanel(Image img) {
+    this.img = img;
+    Dimension size = new Dimension(img.getWidth(null), img.getHeight(null));
+    setPreferredSize(size);
+    setMinimumSize(size);
+    setMaximumSize(size);
+    setSize(size);
+ 
+    setLayout(null);
+  }
+
+  public void paintComponent(Graphics g) {
+    g.drawImage(img, 0, 0, null);
+  }
+
+}
+
+public class JMGS extends JFrame {
+
+private JPanel contentPane;
+	private JTextField textFieldtname;
+	//private JRadioButton indoor;
+	//private JRadioButton outdoor;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) throws Exception {
+		
+		
+		
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					
+					
+					JMGS frame= new  JMGS ("Sports jaf managmeent system");
+				
+					 ImagePanel panel = new ImagePanel(
+							 new ImageIcon("C:\\Users\\Imdad\\Desktop\\Project\\name.jpg").getImage());
+							 panel.setBounds(0, 0, 1410, 750);
+							 frame.getContentPane().add(panel);
+							 frame.pack();
+							 frame.setVisible(true);
+					 frame.setVisible(true);
+					
+					
+				} catch (Exception e)
+				{
+					e.printStackTrace();
+				}
+			}
+
+			
+		});
+		
+		
+		
+	}
+
+	public JMGS()
+	public JMGS(String s)   throws Exception {
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(450, 450, 700, 700);
+		contentPane = new JPanel();
+	    contentPane.setBackground(Color.GRAY);
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		textFieldtname = new JTextField();
+		textFieldtname.setForeground(new Color(255, 255, 255));
+		textFieldtname.setBackground(new Color(0, 0, 0));
+		textFieldtname.setBounds(357, 62, 235, 20);
+		contentPane.add(textFieldtname);
+		textFieldtname.setColumns(10);
+		JLabel lblNewLabel = new JLabel("Name of the Team :");
+		lblNewLabel.setForeground(Color.WHITE);
+		lblNewLabel.setFont(new Font("Mongolian Baiti", Font.BOLD, 16));
+		lblNewLabel.setBounds(83, 62, 150, 20);
+		contentPane.add(lblNewLabel);
+		JRadioButton indoor = new JRadioButton("INDOOR");
+		indoor.setForeground(new Color(255, 255, 255));
+		indoor.setBackground(new Color(0, 0, 0));
+		JRadioButton outdoor = new JRadioButton("OUTDOOR");
+		outdoor.setBackground(new Color(0, 0, 0));
+		outdoor.setForeground(new Color(255, 255, 255));
+		indoor.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				if(indoor.isSelected())
+				{
+					outdoor.setSelected(false);
+				}
+			}
+		});
+		indoor.setBounds(252, 127, 109, 23);
+		contentPane.add(indoor);
+		//JRadioButton outdoor = new JRadioButton("OUTDOOR");
+		    outdoor.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(outdoor.isSelected())
+				{
+					indoor.setSelected(false);
+				}
+			}
+		});
+		outdoor.setBounds(252, 160, 109, 23);
+		contentPane.add(outdoor);
+		JButton btnNewButton = new JButton("Category");
+		btnNewButton.setForeground(Color.BLACK);
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				String selection=null;
+				if(indoor.isSelected()) 
+				{
+					selection="indoor is selected";
+					
+				
+				}
+				if(outdoor.isSelected()) 
+				{
+					selection="outdoor is selected";	
+				}
+				System.out.println(selection);
+			}
+		});
+		btnNewButton.setFont(new Font("Mongolian Baiti", Font.BOLD, 16));
+		btnNewButton.setBounds(83, 126, 136, 23);
+		contentPane.add(btnNewButton);
+		JRadioButton SLOT1 = new JRadioButton("7 AM TO 8:30 AM");
+		SLOT1.setForeground(new Color(255, 255, 255));
+		SLOT1.setBackground(new Color(0, 0, 0));
+		JRadioButton SLOT2 = new JRadioButton("8:30 AM TO 10 AM");
+		SLOT2.setForeground(new Color(255, 255, 255));
+		SLOT2.setBackground(new Color(0, 0, 0));
+		JRadioButton SLOT3 = new JRadioButton("10:30 AM TO 11 AM");
+		SLOT3.setForeground(new Color(255, 255, 255));
+		SLOT3.setBackground(new Color(0, 0, 0));
+		JRadioButton SLOT4 = new JRadioButton("11 AM TO 12:30 PM");
+		SLOT4.setForeground(new Color(255, 255, 255));
+		SLOT4.setBackground(new Color(0, 0, 0));
+		JRadioButton SLOT5 = new JRadioButton("12:30 PM TO 2 PM");
+		SLOT5.setForeground(new Color(255, 255, 255));
+		SLOT5.setBackground(new Color(0, 0, 0));
+		JRadioButton SLOT6 = new JRadioButton("2 PM TO 3:30 PM");
+		SLOT6.setForeground(new Color(255, 255, 255));
+		SLOT6.setBackground(new Color(0, 0, 0));
+		JRadioButton SLOT7 = new JRadioButton("3:30 PM TO 5 PM");
+		SLOT7.setBackground(new Color(0, 0, 0));
+		SLOT7.setForeground(new Color(255, 255, 255));
+		JRadioButton SLOT8 = new JRadioButton("5 PM TO 6:30 PM");
+		SLOT8.setForeground(new Color(255, 255, 255));
+		SLOT8.setBackground(new Color(0, 0, 0));
+		JRadioButton SLOT9 = new JRadioButton("6:30 PM TO 8 PM");
+		SLOT9.setBackground(new Color(0, 0, 0));
+		SLOT9.setForeground(new Color(255, 255, 255));
+		
+		//JRadioButton SLOT2 = new JRadioButton("8:30 AM TO 10 AM");
+		SLOT2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT2.isSelected())
+				{
+					if(SLOT1.isSelected())
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					else if(SLOT3.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT4.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT5.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT6.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);	
+						
+					}
+					else if(SLOT7.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT8.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT9.isSelected()) 
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+					
+						
+					}
+					
+				}
+				
+			}
+		});
+		SLOT2.setBounds(252, 272, 136, 23);
+		contentPane.add(SLOT2);
+		
+		//JRadioButton SLOT3 = new JRadioButton("10:30 AM TO 11 AM");
+		SLOT3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT3.isSelected())
+						{
+							if(SLOT1.isSelected())
+							{
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT4.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT6.isSelected()) 
+							{ SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);	
+								
+							}
+							else if(SLOT7.isSelected()) 
+							{    SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT8.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT9.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+							
+								
+							}
+							
+						}
+						
+					}
+			}
+		});
+		SLOT3.setBounds(252, 312, 136, 23);
+		contentPane.add(SLOT3);
+		
+		//JRadioButton SLOT1 = new JRadioButton("7 AM TO 8:30 AM");
+		SLOT1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT1.isSelected())
+				{
+					if(SLOT2.isSelected())
+					{
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					       else if(SLOT3.isSelected())
+							{
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT4.isSelected()) 
+							{  
+								SLOT2.setSelected(false);
+                                SLOT3.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT6.isSelected()) 
+							{ 
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);	
+								
+							}
+							else if(SLOT7.isSelected()) 
+							{ 
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT8.isSelected()) 
+							{   
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT9.isSelected()) 
+							{  
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+							
+								
+							}
+}
+	
+				
+				
+			}
+		});
+		SLOT1.setBounds(252, 229, 136, 23);
+		contentPane.add(SLOT1);
+
+		//JRadioButton SLOT7 = new JRadioButton("3:30 PM TO 5 PM");
+		SLOT7.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT7.isSelected())
+						{
+							if(SLOT2.isSelected())
+							{   SLOT1.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT4.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+							
+								SLOT6.setSelected(false);
+							
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT6.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);					
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT1.isSelected()) 
+							{       
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+							
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT8.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+								SLOT9.setSelected(false);
+							
+								
+							}
+		                            else if(SLOT9.isSelected()) 
+									{   SLOT1.setSelected(false);
+										SLOT2.setSelected(false);
+										SLOT3.setSelected(false);
+										SLOT4.setSelected(false);
+										SLOT5.setSelected(false);
+								
+										SLOT8.setSelected(false);
+										
+									
+										
+									}
+							
+						}
+						
+					}
+				
+			}
+		});
+		SLOT7.setBounds(479, 272, 125, 23);
+		contentPane.add(SLOT7);
+		
+		//JRadioButton SLOT8 = new JRadioButton("5 PM TO 6:30 PM");
+		SLOT8.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT8.isSelected())
+						{
+							if(SLOT2.isSelected())
+							{
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+							
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+							
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT4.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+							
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT6.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+							
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT7.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								
+							
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT1.isSelected()) 
+							{       
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								
+								SLOT9.setSelected(false);
+							
+								
+							}
+		                                 else if(SLOT9.isSelected()) 
+									{   SLOT1.setSelected(false);
+										SLOT2.setSelected(false);
+										SLOT3.setSelected(false);
+										SLOT4.setSelected(false);
+										SLOT5.setSelected(false);
+										SLOT7.setSelected(false);
+										
+									
+										
+								}
+							
+						}
+						
+					}
+				
+				
+			}
+		});
+		SLOT8.setBounds(479, 312, 125, 23);
+		contentPane.add(SLOT8);
+		
+		//JRadioButton SLOT6 = new JRadioButton("2 PM TO 3:30 PM");
+		SLOT6.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 {
+						if(SLOT6.isSelected())
+						{
+							if(SLOT1.isSelected())
+							{
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+							}
+							else if(SLOT2.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT4.isSelected()) 
+							{    SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT5.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT7.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT8.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+								
+							}
+							else if(SLOT9.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								SLOT9.setSelected(false);
+							
+								
+							}
+							
+						}
+						
+					}
+				
+			}
+		});
+		SLOT6.setBounds(479, 229, 125, 23);
+		contentPane.add(SLOT6);
+		
+		//JRadioButton SLOT4 = new JRadioButton("11 AM TO 12:30 PM");
+		SLOT4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT4.isSelected())
+				{
+					if(SLOT1.isSelected())
+					{
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					else if(SLOT2.isSelected()) 
+					{   SLOT1.setSelected(false);
+					SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT5.isSelected()) 
+					{
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT6.isSelected()) 
+					{ 
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);	
+						
+					}
+					else if(SLOT7.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT8.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT9.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT5.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+					}
+				}	
+			}
+			});
+		SLOT4.setBounds(252, 353, 136, 23);
+		contentPane.add(SLOT4);
+		
+		//JRadioButton SLOT9 = new JRadioButton("6:30 PM TO 8 PM");
+		
+		SLOT9.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				 {
+						if(SLOT9.isSelected())
+						{
+							if(SLOT2.isSelected())
+							{
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+							}
+							else if(SLOT3.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+							     SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								}
+							else if(SLOT4.isSelected()) 
+							{   SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+                             }
+							else if(SLOT5.isSelected()) 
+							{    SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+								}
+							else if(SLOT6.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT7.setSelected(false);
+								SLOT8.setSelected(false);
+
+							}
+							else if(SLOT7.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+					            SLOT8.setSelected(false);
+                             }
+							else if(SLOT8.isSelected()) 
+							{        SLOT1.setSelected(false);
+								SLOT2.setSelected(false);
+								SLOT3.setSelected(false);
+								SLOT4.setSelected(false);
+								SLOT5.setSelected(false);
+								SLOT6.setSelected(false);
+								SLOT7.setSelected(false);
+                             }
+		                               else if(SLOT1.isSelected()) 
+									{   
+										SLOT2.setSelected(false);
+										SLOT3.setSelected(false);
+										SLOT4.setSelected(false);
+										SLOT5.setSelected(false);
+										SLOT7.setSelected(false);
+										SLOT8.setSelected(false);
+									}
+							
+						}	
+				    }
+				 }
+		});
+		SLOT9.setBounds(483, 353, 121, 23);
+		contentPane.add(SLOT9);
+		
+		//JRadioButton SLOT5 = new JRadioButton("12:30 PM TO 2 PM");
+		SLOT5.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if(SLOT5.isSelected())
+				{
+					if(SLOT1.isSelected())
+					{
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+					
+					}
+					else if(SLOT2.isSelected()) 
+					{   SLOT1.setSelected(false);
+					    SLOT3.setSelected(false);
+					    SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT3.isSelected()) 
+					{
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT6.isSelected()) 
+					{ 
+						SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);	
+						
+					}
+					else if(SLOT7.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT8.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT8.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT9.setSelected(false);
+						
+					}
+					else if(SLOT9.isSelected()) 
+					{   SLOT1.setSelected(false);
+						SLOT2.setSelected(false);
+						SLOT3.setSelected(false);
+						SLOT4.setSelected(false);
+						SLOT6.setSelected(false);
+						SLOT7.setSelected(false);
+						SLOT8.setSelected(false);
+					}
+				}	
+			}	
+		});
+		SLOT5.setBounds(252, 394, 136, 23);
+		contentPane.add(SLOT5);
+		JButton SUBMIT = new JButton("SUMIT");
+		SUBMIT.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		SUBMIT.setForeground(new Color(60, 179, 113));
+		SUBMIT.setBackground(new Color(0, 0, 0));
+		SUBMIT.setFont(new Font("Mongolian Baiti", Font.BOLD, 11));
+		SUBMIT.setBounds(595, 616, 89, 23);
+		contentPane.add(SUBMIT);
+		
+		JLabel lblNewLabel_1 = new JLabel("NOTE : A TEAM CAN CHOOSE MAXIMUM 2 SLOTS PER A DAY.");
+		lblNewLabel_1.setForeground(new Color(255, 255, 255));
+		lblNewLabel_1.setFont(new Font("Mongolian Baiti", Font.BOLD | Font.ITALIC, 13));
+		lblNewLabel_1.setBounds(252, 434, 422, 14);
+		contentPane.add(lblNewLabel_1);
+		
+		JLabel lblNewLabel_2 = new JLabel("PUT TEAM'S NAME IN A BLOCK LATTER ");
+		lblNewLabel_2.setVerticalAlignment(SwingConstants.TOP);
+		lblNewLabel_2.setForeground(new Color(34, 139, 34));
+		lblNewLabel_2.setFont(new Font("Tahoma", Font.BOLD | Font.ITALIC, 13));
+		lblNewLabel_2.setBounds(357, 38, 266, 14);
+		contentPane.add(lblNewLabel_2);
+		
+		JButton btnNewButton_1 = new JButton("Slot :");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				 String slot=null;
+				 if(SLOT1.isSelected())
+					{
+						if(SLOT2.isSelected())
+						{
+							slot="slot 1 & slot 1 is booked";
+						}
+	                     else if(SLOT3.isSelected()) 
+						{
+							slot="slot 2 & slot 3 is booked";
+						}
+						else if(SLOT4.isSelected()) 
+						{
+							slot="slot 3 & slot 4 is booked";
+						}
+						else if(SLOT5.isSelected()) 
+						{
+	                     slot="slot 5 & slot 5 is booked";
+						}
+						else if(SLOT6.isSelected()) 
+						{
+						
+							slot="slot 6 & slot 6 is booked";
+						}
+						else if(SLOT7.isSelected()) 
+						{
+							
+							slot="slot 7 & slot 7 is booked";
+						}
+						else if(SLOT8.isSelected()) 
+						{
+							slot="slot 8 & slot 8 is booked";
+							
+						}
+						else if(SLOT9.isSelected()) 
+						{
+							
+						slot="slot 9 & slot 9 is booked";	
+						}
+						
+					}
+
+				 if(SLOT2.isSelected())
+					{
+						if(SLOT1.isSelected())
+						{
+							slot="slot 2 & slot 1 is booked";
+						}
+	                     else if(SLOT3.isSelected()) 
+						{
+							slot="slot 2 & slot 3 is booked";
+						}
+						else if(SLOT4.isSelected()) 
+						{
+							slot="slot 2 & slot 4 is booked";
+						}
+						else if(SLOT5.isSelected()) 
+						{
+	                     slot="slot 2 & slot 5 is booked";
+						}
+						else if(SLOT6.isSelected()) 
+						{
+						
+							slot="slot 2 & slot 6 is booked";
+						}
+						else if(SLOT7.isSelected()) 
+						{
+							
+							slot="slot 2 & slot 7 is booked";
+						}
+						else if(SLOT8.isSelected()) 
+						{
+							slot="slot 2 & slot 8 is booked";
+							
+						}
+						else if(SLOT9.isSelected()) 
+						{
+							
+						slot="slot 2 & slot 9 is booked";	
+						}
+						
+					}
+				 
+				 if(SLOT3.isSelected())
+					{
+						if(SLOT1.isSelected())
+						{
+							slot="slot 3 & slot 1 is booked";
+						}
+	                     else if(SLOT2.isSelected()) 
+						{
+							slot="slot 2 & slot 3 is booked";
+						}
+						else if(SLOT4.isSelected()) 
+						{
+							slot="slot 3 & slot 4 is booked";
+						}
+						else if(SLOT5.isSelected()) 
+						{
+	                     slot="slot 3 & slot 5 is booked";
+						}
+						else if(SLOT6.isSelected()) 
+						{
+						
+							slot="slot 3 & slot 6 is booked";
+						}
+						else if(SLOT7.isSelected()) 
+						{
+							
+							slot="slot 3 & slot 7 is booked";
+						}
+						else if(SLOT8.isSelected()) 
+						{
+							slot="slot 3 & slot 8 is booked";
+							
+						}
+						else if(SLOT9.isSelected()) 
+						{
+							
+						slot="slot 3 & slot 9 is booked";	
+						}
+						
+					}
+             
+				 if(SLOT4.isSelected())
+					{
+						if(SLOT1.isSelected())
+						{
+							slot="slot 4 & slot 1 is booked";
+						}
+	                     else if(SLOT3.isSelected()) 
+						{
+							slot="slot 4 & slot 3 is booked";
+						}
+						else if(SLOT2.isSelected()) 
+						{
+							slot="slot 2 & slot 4 is booked";
+						}
+						else if(SLOT5.isSelected()) 
+						{
+	                     slot="slot 4 & slot 5 is booked";
+						}
+						else if(SLOT6.isSelected()) 
+						{
+						
+							slot="slot 4 & slot 6 is booked";
+						}
+						else if(SLOT7.isSelected()) 
+						{
+							
+							slot="slot 4 & slot 7 is booked";
+						}
+						else if(SLOT8.isSelected()) 
+						{
+							slot="slot 4 & slot 8 is booked";
+							
+						}
+						else if(SLOT9.isSelected()) 
+						{
+							
+						slot="slot 4 & slot 9 is booked";	
+						}
+						
+					}
+
+
+
+				 if(SLOT5.isSelected())
+				  {
+					if(SLOT1.isSelected())
+					{
+						slot="Slot 5 & Slot 1 is booked ";
+					
+					}
+					else if(SLOT2.isSelected()) 
+					{   
+						slot="Slot 5 & Slot 2 is booked ";
+					}
+					else if(SLOT3.isSelected()) 
+					{
+						slot="Slot 5 & Slot 3 is booked ";
+						
+					}
+					else if(SLOT6.isSelected()) 
+					{ 
+						slot="Slot 5 & Slot 6 is booked ";
+						
+					}
+					else if(SLOT7.isSelected()) 
+					{  
+						slot="Slot 5 & Slot 7 is booked ";
+					}
+					else if(SLOT8.isSelected()) 
+					{   
+                        slot="Slot 5 & Slot 8 is booked ";
+					}
+					else if(SLOT9.isSelected()) 
+					{   
+                        slot="Slot 5 & Slot 9 is booked ";
+					}
+					
+					 if(SLOT6.isSelected())
+						{
+							if(SLOT1.isSelected())
+							{
+								slot="slot 6 & slot 1 is booked";
+							}
+		                     else if(SLOT3.isSelected()) 
+							{
+								slot="slot 6 & slot 3 is booked";
+							}
+							else if(SLOT4.isSelected()) 
+							{
+								slot="slot 6 & slot 4 is booked";
+							}
+							else if(SLOT5.isSelected()) 
+							{
+		                     slot="slot 6 & slot 5 is booked";
+							}
+							else if(SLOT2.isSelected()) 
+							{
+							
+								slot="slot 2 & slot 6 is booked";
+							}
+							else if(SLOT7.isSelected()) 
+							{
+								
+								slot="slot 6 & slot 7 is booked";
+							}
+							else if(SLOT8.isSelected()) 
+							{
+								slot="slot 6 & slot 8 is booked";
+								
+							}
+							else if(SLOT9.isSelected()) 
+							{
+								
+							slot="slot 6 & slot 9 is booked";	
+							}
+							
+						}
+					 
+					 if(SLOT7.isSelected())
+						{
+							if(SLOT1.isSelected())
+							{
+								slot="slot 7 & slot 1 is booked";
+							}
+		                     else if(SLOT3.isSelected()) 
+							{
+								slot="slot 7 & slot 3 is booked";
+							}
+							else if(SLOT4.isSelected()) 
+							{
+								slot="slot 7 & slot 4 is booked";
+							}
+							else if(SLOT5.isSelected()) 
+							{
+		                     slot="slot 7 & slot 5 is booked";
+							}
+							else if(SLOT6.isSelected()) 
+							{
+							
+								slot="slot 7 & slot 6 is booked";
+							}
+							else if(SLOT2.isSelected()) 
+							{
+								
+								slot="slot 7 & slot 2 is booked";
+							}
+							else if(SLOT8.isSelected()) 
+							{
+								slot="slot 7 & slot 8 is booked";
+								
+							}
+							else if(SLOT9.isSelected()) 
+							{
+								
+							slot="slot 7 & slot 9 is booked";	
+							}
+							
+						}
+			    }	
+				 if(SLOT8.isSelected())
+					{
+						if(SLOT1.isSelected())
+						{
+							slot="slot 8 & slot 1 is booked";
+						}
+	                     else if(SLOT3.isSelected()) 
+						{
+							slot="slot 8 & slot 3 is booked";
+						}
+						else if(SLOT4.isSelected()) 
+						{
+							slot="slot 8 & slot 4 is booked";
+						}
+						else if(SLOT5.isSelected()) 
+						{
+	                     slot="slot 8 & slot 5 is booked";
+						}
+						else if(SLOT6.isSelected()) 
+						{
+						
+							slot="slot 8 & slot 6 is booked";
+						}
+						else if(SLOT7.isSelected()) 
+						{
+							
+							slot="slot 8 & slot 7 is booked";
+						}
+						else if(SLOT2.isSelected()) 
+						{
+							slot="slot 8 & slot 8 is booked";
+							
+						}
+						else if(SLOT9.isSelected()) 
+						{
+							
+						slot="slot 8 & slot 9 is booked";	
+						}
+						
+					}
+				 
+				 if(SLOT9.isSelected())
+					{
+						if(SLOT1.isSelected())
+						{
+							slot="slot 9 & slot 1 is booked";
+						}
+	                     else if(SLOT3.isSelected()) 
+						{
+							slot="slot 9 & slot 3 is booked";
+						}
+						else if(SLOT4.isSelected()) 
+						{
+							slot="slot 9 & slot 4 is booked";
+						}
+						else if(SLOT5.isSelected()) 
+						{
+	                     slot="slot 9 & slot 5 is booked";
+						}
+						else if(SLOT6.isSelected()) 
+						{
+						
+							slot="slot 9 & slot 6 is booked";
+						}
+						else if(SLOT7.isSelected()) 
+						{
+							
+							slot="slot 2 & slot 7 is booked";
+						}
+						else if(SLOT8.isSelected()) 
+						{
+							slot="slot 2 & slot 8 is booked";
+							
+						}
+						else if(SLOT2.isSelected()) 
+						{
+							
+						slot="slot 2 & slot 9 is booked";	
+						}
+						
+					}
+				System.out.println(slot);
+			
+				File file = new File("out.txt");
+				 try {
+					FileWriter fw = new FileWriter(file);
+				} catch (IOException e2) {
+					// TODO Auto-generated catch block
+					e2.printStackTrace();
+				} 
+				
+				 try { 
+					  
+			          
+			            PrintWriter writer 
+			                = new PrintWriter(file); 
+			             writer.write(slot); 
+			             writer.flush(); 
+			         
+			        } 
+			        catch (Exception e1) { 
+			            System.out.println(e1); 
+			        } 
+			}
+		});
+		btnNewButton_1.setFont(new Font("Mongolian Baiti", Font.BOLD, 13));
+		btnNewButton_1.setBounds(130, 229, 89, 23);
+		contentPane.add(btnNewButton_1);
+		
+	
+		
+	}
+	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3061)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3116)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1419)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:426)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2020-04-11 22:27:09.869
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3061)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3116)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1419)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:426)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2020-04-11 22:27:09.882
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3061)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:632)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:205)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3116)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1419)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:426)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:200)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1138)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1315)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+!SESSION 2020-04-11 23:28:20.493 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-11 23:28:49.636
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-13 18:49:42.460 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-13 18:50:20.698
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-13 20:21:32.947 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-13 20:22:03.399
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-15 00:30:51.013 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-04-15 00:31:04.175
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-15 00:32:10.361
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-15 02:10:49.773 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-15 02:11:36.797
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2020-04-15 02:14:06.512
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper.dispose(EmptyWorkspaceHelper.java:140)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper.access$3(EmptyWorkspaceHelper.java:139)
+	at org.eclipse.ui.internal.views.helpers.EmptyWorkspaceHelper$Listener.widgetDisposed(EmptyWorkspaceHelper.java:382)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1042)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:794)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:163)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:713)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1315)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:410)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3573)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:276)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3116)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4819)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:335)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2100)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3519)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4097)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3122)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:485)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2086)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.ui 4 0 2020-04-15 02:14:06.693
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4704)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.graphics.GC.setForeground(GC.java:4370)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.drawBackground(CTabRendering.java:1063)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.drawUnselectedTabBackground(CTabRendering.java:996)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.drawCustomBackground(CTabRendering.java:978)
+	at org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.draw(CTabRendering.java:216)
+	at org.eclipse.swt.custom.CTabFolder.updateBkImages(CTabFolder.java:3916)
+	at org.eclipse.swt.custom.CTabFolder.setButtonBounds(CTabFolder.java:2599)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3826)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3757)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2114)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1042)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:5414)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:349)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1714)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4795)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4749)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5644)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4808)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3244)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1054)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3205)
+	at org.eclipse.swt.widgets.Control.setSizeInPixels(Control.java:3746)
+	at org.eclipse.swt.widgets.Control.setSize(Control.java:3776)
+	at org.eclipse.swt.widgets.Control.pack(Control.java:2185)
+	at org.eclipse.swt.widgets.Control.pack(Control.java:2155)
+	at org.eclipse.jface.action.ToolBarManager.relayout(ToolBarManager.java:223)
+	at org.eclipse.jface.action.ToolBarManager.update(ToolBarManager.java:386)
+	at org.eclipse.ui.internal.e4.compatibility.ActionBars.updateActionBars(ActionBars.java:81)
+	at org.eclipse.ui.part.PageBookView.showPageRec(PageBookView.java:937)
+	at org.eclipse.ui.views.contentoutline.ContentOutline.showPageRec(ContentOutline.java:239)
+	at org.eclipse.ui.part.PageBookView.partHidden(PageBookView.java:1069)
+	at org.eclipse.ui.part.PageBookView$1.partHidden(PageBookView.java:1026)
+	at org.eclipse.ui.internal.WorkbenchPage$18.run(WorkbenchPage.java:5247)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartHidden(WorkbenchPage.java:5244)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.lambda$0(CompatibilityPart.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4561)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:267)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:149)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:138)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1042)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:794)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:163)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:713)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1315)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:410)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3573)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:276)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3116)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4819)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:335)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2100)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3519)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4097)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3122)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:485)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2086)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY org.eclipse.ui 4 0 2020-04-15 02:14:06.848
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.NavigationHistory.getDisplay(NavigationHistory.java:178)
+	at org.eclipse.ui.internal.NavigationHistory.markEditor(NavigationHistory.java:197)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActiveEditorSources(WorkbenchPage.java:419)
+	at org.eclipse.ui.internal.WorkbenchPage.firePartClosed(WorkbenchPage.java:5103)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.lambda$0(CompatibilityPart.java:108)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4561)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:267)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:149)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.lambda$0(SWTPartRenderer.java:138)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1042)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:794)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:921)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:163)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:713)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1315)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:797)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:410)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:392)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3573)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:276)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3116)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4819)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:335)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2100)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3519)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:223)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.lambda$0(IDEWorkbenchAdvisor.java:158)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4097)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3122)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:485)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2086)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4757)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3519)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+!SESSION 2020-04-15 10:13:44.046 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-15 10:14:38.127
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-04-15 21:35:53.349 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-15 21:36:35.107
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 4 2020-04-15 21:53:33.505
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda$1158/0x0000000101436440@5adf2f7c, thread Worker-15: Launching sms will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-04-15 21:53:33.505
+!MESSAGE Worker-15: Launching sms thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-15: Launching sms
+	at java.management@11.0.4/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.4/sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:466)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:209)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:179)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:92)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:142)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4561)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:246)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:198)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.preLaunchCheck(AbstractJavaLaunchConfigurationDelegate.java:1024)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:823)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:719)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1017)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1220)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-04-15 21:53:33.506
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at java.base@11.0.4/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:318)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:205)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:95)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:298)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:124)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2242)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2287)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:76)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:66)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:461)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.validateState(TextFileDocumentProvider.java:1037)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.validateState(AbstractTextEditor.java:4951)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1322)
+	at org.eclipse.wb.internal.core.editor.multi.DesignerEditor.doSave(DesignerEditor.java:287)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7182)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:333)
+	at org.eclipse.ui.internal.SaveablesList.lambda$2(SaveablesList.java:850)
+	at org.eclipse.ui.internal.SaveablesList$$Lambda$1159/0x0000000101435040.run(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper$$Lambda$1160/0x0000000101435440.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:436)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:2375)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$723/0x0000000100e49040.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2373)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:858)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:822)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3478)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1494)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1482)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:228)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:182)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.lambda$0(Prompter.java:73)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$$Lambda$1158/0x0000000101436440.run(Unknown Source)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:139)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$686/0x0000000100d2a840.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.ui.internal.Workbench$$Lambda$100/0x0000000100352440.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@11.0.4/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.4/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.4/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.4/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+!SESSION 2020-04-19 20:34:53.910 -----------------------------------------------
+eclipse.buildId=4.15.0.I20200305-0155
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-04-19 20:35:02.217
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-19 20:35:32.599
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Imdad'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

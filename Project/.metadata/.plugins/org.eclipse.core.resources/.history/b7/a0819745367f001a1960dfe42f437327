@@ -1,0 +1,59 @@
+
+package team;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import java.awt.Color;
+import java.awt.Font;
+public class details {
+
+	
+
+	public class sms extends JFrame {
+
+		private JPanel contentPane;
+
+		/**
+		 * Launch the application.
+		 */
+	
+						
+						
+					
+				
+			
+		
+
+		/**
+		 * Create the frame.
+		 */
+		public sms() {
+			setBackground(Color.BLACK);
+			setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+			setBounds(100, 100, 450, 300);
+			contentPane = new JPanel();
+			contentPane.setBackground(Color.BLACK);
+			contentPane.setForeground(Color.WHITE);
+			contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+			setContentPane(contentPane);
+			contentPane.setLayout(null);
+			
+			JLabel lblNewLabel = new JLabel("Your data has been saved.");
+			lblNewLabel.setFont(new Font("Century Schoolbook", Font.BOLD, 13));
+			lblNewLabel.setBackground(Color.BLACK);
+			lblNewLabel.setForeground(Color.WHITE);
+			lblNewLabel.setBounds(136, 105, 215, 33);
+			contentPane.add(lblNewLabel);
+		}
+	}
+
+	
+
+}
